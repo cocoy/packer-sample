@@ -1,0 +1,19 @@
+---
+- hosts: all
+  remote_user: ubuntu
+  become: yes
+  become_method: sudo
+
+  #roles: 
+  # - { role: pcextreme.nginx } 
+
+  pre_tasks:
+   - name: update apt
+     apt: update_cache=yes 
+
+   - name: install add_apt command 
+     apt: name=python-software-properties state=installed 
+
+   - name: install nginx  
+     apt: name=nginx
+  
