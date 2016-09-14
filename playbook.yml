@@ -4,9 +4,10 @@
   become: yes
   become_method: sudo
 
+  # More roles can be added here too.
   #roles: 
   # - { role: pcextreme.nginx } 
-
+  # 
   pre_tasks:
    - name: update apt
      apt: update_cache=yes 
