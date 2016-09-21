@@ -1,6 +1,6 @@
 # Packer Sample with Ansible 
 
-Illustrate how to use Ansible as provisioner to Hashicorp''s Packer 
+Illustrate how to use Ansible as provisioner to Hashicorp''s Packer on creating AMI on EC2.
 
 ## Getting Started
 
@@ -10,12 +10,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-Packer 
-Ansible 
-
-```
-Give examples
-```
+Packer, Ansible 
 
 
 ### Post related to this repository:
@@ -24,9 +19,8 @@ http://www.capsunlock.net/2016/09/packer-for-building-ami-on-ec2-and-beyond.html
 
 ## Authors
 
-* **Rodneyy Quillo** - *Initial work* - [Capsunlock.net](https://github.com/cocoy)
+* **Rodney Quillo** - *Initial work* - [cocoy](https://github.com/cocoy)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
