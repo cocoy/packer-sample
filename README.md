@@ -16,6 +16,9 @@ Packer, Ansible
 ### Post related to this repository:
 http://www.capsunlock.net/2016/09/packer-for-building-ami-on-ec2-and-beyond.html
 
+### Runtime 
+![Console Pic](packer_ansible.png)  
+
 
 ## Authors
 
