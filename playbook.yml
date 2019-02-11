@@ -17,4 +17,7 @@
 
    - name: install nginx  
      apt: name=nginx
+
+  roles:
+   - dev-sec.os-hardening
   
